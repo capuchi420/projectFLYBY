@@ -188,6 +188,10 @@ div.copyright{
 }
 
 @media only screen and (max-width: 411px){
+    nav{
+        position: relative;
+    }
+    
     ul{
         display: none;
     }
