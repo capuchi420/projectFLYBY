@@ -15,16 +15,3 @@ document.querySelector('#openNav').addEventListener('click', e => {
         document.querySelector('#openNav').className = "fa-solid fa-bars";
     }
 });
-
-document.querySelectorAll('div#hover').forEach(element => {
-    element.addEventListener('mouseover', () => {
-        element.querySelector('div.txtOver').style.transform = 'translateY(0px)';
-    });
-});
-
-document.querySelectorAll('div#hover').forEach(element => {
-    element.addEventListener('mouseout', () => {
-        element.querySelector('div.txtOver').style.transform = 'translateY(400px)';
-    });
-});
-
