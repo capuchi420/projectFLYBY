@@ -146,3 +146,13 @@ div.approved p{
         margin-bottom: 20px;
     }
 }
+
+@media only screen and (max-width: 375px){
+    div.approved i{
+        font-size: 200px;
+    }
+
+    div.approved p{
+        font-size: 20px;
+    }
+}
