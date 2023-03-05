@@ -188,15 +188,6 @@ div.copyright{
 }
 
 @media only screen and (max-width: 411px){
-    nav{
-        position: relative;
-    }
-    
-    div.hero{
-        width: 100%;
-        height: 100%;
-    }
-
     ul{
         display: none;
     }
