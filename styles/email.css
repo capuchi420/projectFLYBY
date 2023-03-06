@@ -149,7 +149,7 @@ div.approved p{
 
 @media only screen and (max-width: 375px){
     div.approved i{
-        font-size: 200px;
+        font-size: 100px;
     }
 
     div.approved p{
